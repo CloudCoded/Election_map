@@ -33,3 +33,9 @@ header{
     font: 12px/16px 'Open Sans', Helvetica, Arial, sans-serif;
     color: #454545;
 }
+
+#countryResults{
+    width: 95%;
+    font: 16px/28px 'Open Sans', Helvetica, Arial, sans-serif;
+    color: #454545;
+}
