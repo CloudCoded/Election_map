@@ -47,3 +47,23 @@ header{
     -moz-box-shadow: 1px 1px 1px 1px rgba(204,204,204,0.5);
     box-shadow: 1px 1px 1px 1px rgba(204,204,204,0.5);
 }
+
+th, td{
+    text-align: left;
+    padding: 8px;
+}
+
+#stateResults th{
+    background-color: #3b3b3b;
+    color: white;
+}
+
+#countryResults th{
+    background-color: #f16059;
+    color: white;
+}
+
+.name-1{
+    background-color: rgb(132, 17, 11);
+    color: white;
+}
