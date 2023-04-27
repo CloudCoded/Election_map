@@ -27,3 +27,9 @@ header{
     margin: 0 auto;
     position: relative;
 }
+
+#stateResults{
+    width: 25%;
+    font: 12px/16px 'Open Sans', Helvetica, Arial, sans-serif;
+    color: #454545;
+}
