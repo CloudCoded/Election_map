@@ -86,4 +86,10 @@ let setStateResults = function(state){
     else{
         winnersName.innerText = theStates[state].winner.name;
     }
-}
+};
+
+betsy.tallyUpTotalVotes();
+akindolapo.tallyUpTotalVotes();
+
+console.log(betsy.totalVotes);
+console.log(akindolapo.totalVotes);
