@@ -55,5 +55,5 @@ let setStateResults = function(state){
         theStates[state].rgbColor = [11, 32, 57];
     }
 
-    let
+    let stateInfoTable = document.getElementById('stateResults');
 }
