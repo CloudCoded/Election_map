@@ -110,3 +110,5 @@ else{
 }
 
 console.log("AND THE WINNER IS..." + winner + "!!!");
+
+let countryInfoTable = document.getElementById('countryResults');
