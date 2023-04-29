@@ -15,3 +15,6 @@ createPolitician = function(name, partyColor){
 
     return politician;
 };
+
+let akindolapo = createPolitician('Akindolapo Abdulazeez', [245, 141, 136]);
+let betsy = createPolitician('Betsy Rocks', [132, 17, 11]);
