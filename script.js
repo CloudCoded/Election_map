@@ -70,4 +70,7 @@ let setStateResults = function(state){
     let candidate2Results = body.children[1].children[1];
 
     let winnersName = body.children[2].children[1];
+
+    stateName.innerText = theStates[state].namefull;
+    abbrev.innerText = '(' +theStates[state].nameAbbrev + ')';
 }
