@@ -73,4 +73,10 @@ let setStateResults = function(state){
 
     stateName.innerText = theStates[state].namefull;
     abbrev.innerText = '(' +theStates[state].nameAbbrev + ')';
+
+    candidate1Name.innerText = betsy.name;
+    candidate2Name.innerText = akindolapo.name;
+
+    candidate1Results.innerText = betsy.electionResults[state];
+    candidate2Results.innerText = akindolapo.electionResults[state];
 }
