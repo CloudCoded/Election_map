@@ -96,3 +96,17 @@ console.log(akindolapo.totalVotes);
 
 console.log("Betsy's color is: " + betsy.partyColor);
 console.log("Akindolapo's color is: " + akindolapo.partyColor);
+
+let winner = "???";
+
+if(akindolapo.totalVotes > betsy.totalVotes){
+    winner = akindolapo.name;
+}
+else if(akindolapo.totalVotes < betsy.totalVotes){
+    winner = betsy.name;
+}
+else{
+    winner = "DRAW";
+}
+
+console.log("AND THE WINNER IS..." + winner + "!!!");
