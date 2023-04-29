@@ -112,3 +112,9 @@ else{
 console.log("AND THE WINNER IS..." + winner + "!!!");
 
 let countryInfoTable = document.getElementById('countryResults');
+
+let row = countryInfoTable.children[0].children[0];
+row.children[0].innerText = betsy.name;
+row.children[1].innerText = betsy.totalVotes;
+row.children[2].innerText = akindolapo.name;
+row.children[3].innerText = akindolapo.totalVotes;
