@@ -68,4 +68,6 @@ let setStateResults = function(state){
 
     let candidate1Results = body.children[0].children[1];
     let candidate2Results = body.children[1].children[1];
+
+    let winnersName = body.children[2].children[1];
 }
