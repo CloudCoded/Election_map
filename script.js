@@ -34,3 +34,26 @@ betsy.electionResults[43] = 27;
 
 console.log(akindolapo.electionResults);
 console.log(betsy.electionResults);
+
+
+let setStateResults = function(state){
+    theStates[state].winner = null;
+
+    if (betsy.electionResults[state] > akindolapo.electionResults[state]){
+        theStates[state].winner = betsy;
+    }
+    else if(betsy.electionResults[state] < akindolapo.electionResults[state]){
+        theStates[state].winner = akindolapo;
+    }
+
+    let stateWinner = theStates[state].winner;
+
+    if(stateWinner !== null){
+        theStates[state].rgbColor = stateWinner.partyColor;
+    }
+    else{
+        theStates[state].rgbColor = [11, 32, 57];
+    }
+
+    let
+}
