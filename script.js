@@ -56,4 +56,10 @@ let setStateResults = function(state){
     }
 
     let stateInfoTable = document.getElementById('stateResults');
+
+    let header = stateInfoTable.children[0];
+    let body = stateInfoTable.children[1];
+
+    let stateName = header.children[0].children[0];
+    let abbrev = header.children[0].children[1];
 }
