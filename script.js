@@ -93,3 +93,6 @@ akindolapo.tallyUpTotalVotes();
 
 console.log(betsy.totalVotes);
 console.log(akindolapo.totalVotes);
+
+console.log("Betsy's color is: " + betsy.partyColor);
+console.log("Akindolapo's color is: " + akindolapo.partyColor);
