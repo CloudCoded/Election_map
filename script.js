@@ -62,4 +62,7 @@ let setStateResults = function(state){
 
     let stateName = header.children[0].children[0];
     let abbrev = header.children[0].children[1];
+
+    let candidate1Name = body.children[0].children[0];
+    let candidate2Name = body.children[1].children[0];
 }
