@@ -79,4 +79,11 @@ let setStateResults = function(state){
 
     candidate1Results.innerText = betsy.electionResults[state];
     candidate2Results.innerText = akindolapo.electionResults[state];
+
+    if(theStates[state].winner === null){
+        winnersName.innerText = 'DRAW';
+    }
+    else{
+        winnersName.innerText = theStates[state].winner.name;
+    }
 }
